@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #fff;
+
+}
+
+.bg-img{
+    background-image: url(img/07.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95vh;
+   
+   
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 19%;
+   
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 21%;
+    height:100px;
+ 
+  }
+  
+  .container_competence{
+      width: 100%;
+      height: 450px;
+      display: flex;
+      justify-content: space-around;
+      padding-bottom: 50px;
+      margin-bottom: 200px;
+  }
+
+  .competences h1{
+      text-align: center;
+      font-weight: 700;
+      font-family: 'Lato', sans-serif;
+      padding-bottom: 40px;
+
+  }
